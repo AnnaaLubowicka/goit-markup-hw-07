@@ -1,0 +1,33 @@
+.advantages__img {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    background-color: rgba(245, 244, 250, 1);
+    border-radius: 4%;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+/*nagłówek tekstu*/ 
+.advantages__tittle {
+    font-size: 14px;
+    line-height: 1.17;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.advantages__text {
+    /*width: 270px; 
+    height: 75px;*/
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--link-color);
+    text-align: left;
+    vertical-align: top;
+}
+
+.advantages__icon {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+}

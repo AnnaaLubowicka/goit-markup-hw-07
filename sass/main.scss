@@ -1,0 +1,34 @@
+@import "./utils/visually_hidden";
+
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/tittle-btn";
+@import "./components/portfolio-btn";
+@import "./components/link-contact";
+@import "./components/tittle";
+@import "./components/portfolio-card";
+@import "./components/overlay";
+@import "./components/advantages-element";
+@import "./components/images-label";
+@import "./components/team-card";
+@import "./components/social-list-link";
+@import "./components/client-icon";
+@import "./components/footer-social-links";
+@import "./components/adress";
+@import "./components/newsletter";
+
+@import "./layout/header";
+@import "./layout/tittle-section";
+@import "./layout/advantages";
+@import "./layout/images-list";
+@import "./layout/team";
+@import "./layout/list-client";
+@import "./layout/footer";
+
+@import "./layout/portfolio-list-card";
+
