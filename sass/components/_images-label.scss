@@ -1,4 +1,11 @@
 .images__label {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    left: 0px;
+    bottom: 0px;
+
+    margin:0;
     font-size: 14px;
     color: #FFFFFF;
 
@@ -11,9 +18,5 @@
     background: rgba(47, 48, 58, 0.8);
     padding-top: 27px;
 
-    position: absolute;
-    width: 370px;
-    height: 70px;
-    left: 0px;
-    bottom: 0px;
+
 }

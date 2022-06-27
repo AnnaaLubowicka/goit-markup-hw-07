@@ -7,7 +7,7 @@
     text-transform: uppercase;
     text-align: left;
     padding: 72px 0 20px;
-    color: #FFFFFF;
+    color: var(--light-logo-color);
 }
 .newsletter-submit__input {
     width: 358px;
@@ -20,27 +20,27 @@
     margin-right: 12px;
     padding-left: 16px;
     transition: none;
-    color: #FFFFFF;
-    outline-color: #757575;
+    color: var(--light-logo-color);
+    outline-color: var(--link-color);
 
 
     &:focus {
-        border: 3px solid rgba(255, 255, 255, 0.3);
+        outline-color: var(--link-color);
         transition-property: border;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        color: #FFFFFF;
+        /*color: #FFFFFF;*/
     }
 }
 .newsletter-button {
     /* button */
     width: 200px;
     height: 50px;
-    background: #2196F3;
+    background: var(--logo-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--light-logo-color);
     display: flex;
     align-items: center;
     padding-top: 10px;
@@ -48,13 +48,13 @@
     padding-left: 42px;
     padding-right: 24px;
     border: none;
-}
 
-.newsletter-button__svg {
-    width: 24px;
-    height: 24px;
-    justify-content: center;
-    align-items: center;
-    margin: 13px auto;
-    display: flex;
+    &__svg {
+        width: 24px;
+        height: 24px;
+        justify-content: center;
+        align-items: center;
+        margin: 13px auto;
+        display: flex;
+    }
 }

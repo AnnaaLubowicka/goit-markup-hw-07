@@ -3,37 +3,28 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
-    margin-right: 93px;
     letter-spacing: 0.03em;
-    padding: 25px 0;
+    text-decoration: none;
     color: var(--logo-color);
-    
+
     &:hover {
         text-decoration-color: var(--logo-color);
     }
-}        
 
-.logo--accent-header {
-    color: var(--main-color);
-}
+    &--page-header {
+        padding: 25px 0;
+        margin-right: 93px;
+    }
+        
+    &--accent-header {
+        color: var(--main-color);
+    }
 
-.logo-accent-footer {
-    color: #FFFFFF;
-}
-.footer-logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    margin-bottom: 20px;
+    &--accent-footer {
+        color: var(--logo-color);
+    }
 
-}
-
-.footer-logo--accent {
-    color: var(--logo-color);
-}
-
-.footer-logo--accent-light {
-    color: #FFFFFF;
+    &--accent-footer-light {
+        color: var(--light-logo-color);
+    }
 }

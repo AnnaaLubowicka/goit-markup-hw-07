@@ -1,15 +1,14 @@
 .images {
-    padding-bottom: 94px;
-}
-
-.images-list {
-    text-decoration: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-    display: flex;
-}
-.images-list__item {
-    position: relative;
+    &__list {
+        text-decoration: none;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    &__item {
+        position: relative;
+    }
 }
